@@ -1,48 +1,71 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
-
-# [Project Name] 🎯
+# Viramam (വിരാമം) 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Viramam
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Mohammed Sinan K - [College]
+- Member 2: Akshay B - [College]
 
 ### Project Description
-[2-3 lines about what your project does]
+
+Viramam is an AI-powered facial recognition system that detects registered users and prevents them from continuously working on a computer. After 10 seconds of recognition, it locks the setup using an ESP32-controlled SG90 servo and tells the user, **"GO TAKE SOME REST!"** 😴
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+People keep working on computers without taking breaks.
+
+So we created an AI that decides when you've worked enough. 😂
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+Viramam recognizes registered users using AI-based facial recognition. If the user is continuously detected for 10 seconds, the ESP32 activates the servo and slowly locks the setup.
+
+When the user leaves for 2 seconds, it automatically unlocks.
+
+**Face detected → 10 seconds → LOCK 🔒 → GO TAKE SOME REST 😴**
 
 ## Technical Details
 ### Technologies/Components Used
+
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python 3.11
+- OpenCV
+- NumPy
+- PySerial
+- YuNet Face Detection
+- SFace Face Recognition
+- ONNX Models
+- Arduino IDE
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- ESP32-WROOM-32
+- SG90 Servo Motor
+- Web Camera
+- USB Cable
+- Jumper Wires
+- 5V Power Supply
+- Servo signal connected to GPIO 18
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+For Software:
+
+# Installation
+
+
+cd C:\Users\aksha\useless3
+
+py -3.11 -m venv venv
+
+.\venv\Scripts\Activate.ps1
+
+python -m pip install opencv-python numpy pyserial
 
 ### Project Documentation
 For Software:
@@ -64,35 +87,38 @@ For Software:
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
+<img width="941" height="707" alt="Screenshot 2026-09-12 095646" src="https://github.com/user-attachments/assets/bf10ce7a-6e79-479d-a7d4-7c45c36aefff" />
+<img width="960" height="737" alt="Screenshot 2026-09-12 084704" src="https://github.com/user-attachments/assets/a23598e1-abe1-47ed-bdd3-298df37dd8c6" />
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+<img width="1080" height="1440" alt="WhatsApp Image 2026-09-12 at 9 52 18 AM (1)" src="https://github.com/user-attachments/assets/5faf4827-8968-48c0-aa58-69e75a9ae982" />*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+<img width="1080" height="1440" alt="WhatsApp Image 2026-09-12 at 9 52 18 AM" src="https://github.com/user-attachments/assets/b92f543d-fa4e-46f7-bd3d-520e5dd9d156" /><img width="900" height="1600" alt="WhatsApp Image 2026-09-12 at 9 52 17 AM" src="https://github.com/user-attachments/assets/01335b33-4877-4585-bff8-bd7415786601" />
 
-![Final](Add photo of final product here)
-*Explain the final build*
+
+https://github.com/user-attachments/assets/6d70736c-3892-473f-8227-8c3250f203d3
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+
+https://github.com/user-attachments/assets/d12e2e9f-c709-4db3-9fd6-b95fe74e4ed2
+
+
+
+
+
+
+
 
 # Additional Demos
-[Add any extra demo materials/links]
+
+
+https://github.com/user-attachments/assets/4f42f9d6-bd79-45e5-9082-a84120abe39c
+
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
+mohammed sinan k hardware configuration
+akshay b arjun software configuration
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
