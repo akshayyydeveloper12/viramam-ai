@@ -9,8 +9,8 @@
 
 
 ### Team Members
-- Team Lead: Mohammed Sinan K - [College]
-- Member 2: Akshay B - [College]
+- Team Lead: Mohammed Sinan K - College of Engineering Munnar
+- Member 2: Akshay B Arjun - College of Engineering Munnar
 
 ### Project Description
 
