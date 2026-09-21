@@ -101,6 +101,7 @@ https://github.com/user-attachments/assets/4f42f9d6-bd79-45e5-9082-a84120abe39c
 
 ## Team Contributions
 mohammed sinan k hardware configuration
+
 akshay b arjun software configuration
 ---
 Made with ❤️ at TinkerHub Useless Projects 
